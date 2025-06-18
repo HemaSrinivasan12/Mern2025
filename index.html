@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <h1> Hello, World!</h1>
     <title>Document</title>
 </head>
+<style>
+    .container {
+        display: flex;
+        height: 300px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .saffron {
+        background-color: #FF9933;
+        width: 300px;
+        height: 100px;
+        border: 2px solid black;
+    }
+    .white {
+        background-color: white;
+        width: 300px;
+        height: 100px;
+        border: 2px solid black;
+        position: relative;
+    }
+    .chakra {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100px;
+        height: 100px;
+    }
+    .green {
+        background-color: #138808;
+        width: 300px;
+        height: 100px;
+        border: 2px solid black;
+    }
+</style>
+<div class="container">
+    <div class="saffron"></div>
+    <div class="white">
+        <img src="C:\Users\hemaa\Downloads\chakra.jpg" class="chakra">
+    </div>
+    <div class="green"></div>
+</div>
+
+
+
 <body>
+    <div class="container">
+       <div class="child"></div>
+         <div class="child"></div>
+           <div class="child"></div>
+           </div>
 </body>
 </html>
